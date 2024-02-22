@@ -1,0 +1,460 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+.navigation ul {
+  display: flex;
+
+  list-style-type: none;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: #00dd00;
+}
+
+.navigation li {
+  padding: 10px 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+.navigation li a:hover {
+  background-color: white;
+}
+
+.active{
+  background-color: white; 
+}
+
+.footer-active{
+  color: #000000;
+}
+
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.hero::before {
+  content: "";
+
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/yiting-he-ww-rvMDsrw4-unsplash.jpg);
+  background-size: cover;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(40%);
+}
+
+.hero__content {
+  position: absolute;
+  color: white;
+}
+
+.hero__content p {
+  font-size: 1.3rem;
+  padding: 30px 0;
+}
+
+.hero-button {
+  background-color: #00dd00;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #059f05;
+}
+.title-color {
+  color: #00dd00;
+}
+
+.urban-intro {
+  background-color: #eeeeee;
+  height: auto;
+  padding: 60px;
+}
+
+.urban-intro-title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.urban-cards {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.urban-cards .card {
+  height: 500px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.urban-cards .card img {
+  object-fit: cover;
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+}
+
+/* .urban-cards .card:last-child img {
+  display: block;
+  width: 100%;
+} */
+
+.urban-cards .card .card-content {
+  padding: 40px;
+}
+
+.urban-scooter {
+  padding: 80px;
+}
+
+.urban-scooter > h2 {
+  text-align: center;
+}
+
+.urban-scooter .card {
+  background-color: #eeeeee;
+  cursor: pointer;
+  transition: ease 0.3s;
+  padding: 40px 100px;
+  border-radius: 10px;
+}
+
+.urban-scooter .card h3 {
+  padding: 30px 0 10px;
+}
+.urban-scooter .card:hover {
+  background-color: #c4c4c4;
+}
+.urban-scooter .cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: center;
+}
+
+.urban-scooter img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.urban-discovery {
+  background-color: #202020;
+  color: white;
+  padding: 40px;
+}
+
+.urban-discovery > h2 {
+  text-align: center;
+}
+
+.urban-lists{
+  padding: 60px 40px 40px;
+}
+
+.urban-sublist {
+  padding: 30px;
+}
+
+.urban-sublist p{
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.urban-ride{
+  text-align: center;
+  padding: 60px;
+}
+
+.urban-ride h2{
+  padding:20px 0;
+}
+
+.urban-ride p{
+  font-size: 2rem;
+}
+.btn-ride{
+  background-color: #00dd00;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  display: flex;
+justify-content: center;
+align-items: center;
+  margin:30px auto 0;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.urban-ride a{
+  text-decoration: none;
+}
+.btn-ride:hover{
+  background-color: #059f05;
+}
+
+.urban-map{
+  display: flex;
+  margin: 100px auto;
+  background-color: #202020;
+  height: 600px;
+  width: 900px;
+}
+
+
+.urban-search{
+  display: flex;
+  margin: 100px auto;
+  height: 550px;
+  width: 1000px;
+  /* background-color: #202020; */
+}
+
+.map-section{
+  background-color: #00dd00;
+  height: 100%;
+  width: 100%;
+}
+
+.form-section{
+  /* background-color: #000000; */
+  height: 100%;
+  width: 100%;
+  padding:40px;
+}
+
+.map-section iframe{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: #202020;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding:100px 200px;
+}
+
+
+.footer-navigation a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-navigation li{
+  font-size: 1.2rem;
+  padding: 5px 0;
+}
+
+.footer p, .footer a, .icon{
+  color: #9c9c9c;
+  transition:  ease 0.3s;
+}
+
+.footer a, .icon{
+  cursor: pointer;
+}
+
+.footer a:hover, .icon:hover{
+  color: #ffffff;
+}
+
+.social h3{
+  padding-bottom: 10px;
+}
+.social-icons{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.icon{
+  font-size: 3rem;
+  padding-right:10px;
+}
