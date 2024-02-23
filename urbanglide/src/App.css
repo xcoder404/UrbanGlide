@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#root{
   overflow-x: hidden;
 }
 
@@ -252,8 +255,8 @@ align-items: center;
 }
 
 .map-section{
-  background-color: #00dd00;
-  height: 100%;
+  /* background-color: #00dd00; */
+  height: 500px;
   width: 100%;
 }
 
@@ -264,10 +267,10 @@ align-items: center;
   padding:40px;
 }
 
-.map-section iframe{
+/* .map-section iframe{
   height: 100%;
   width: 100%;
-}
+} */
 
 
 
